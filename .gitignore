@@ -1,0 +1,5 @@
+input/
+output/
+*.pyc
+
+__1.6_data-shops.json

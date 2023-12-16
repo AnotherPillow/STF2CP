@@ -1,0 +1,3 @@
+[submodule "src/_Logger"]
+	path = src/_Logger
+	url = https://github.com/anotherpillow/MultiLangLogger.git

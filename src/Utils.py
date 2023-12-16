@@ -1,0 +1,16 @@
+def inventoryTypeToQualified(type):
+    match type:
+        case 'Object':
+            return '(O)'
+        case 'MeleeWeapon':
+            return '(W)'
+        case 'Weapon':
+            return '(W)'
+        case 'Wallpaper':
+            return '(WP)'
+        case 'Furniture':
+            return '(F)'
+        case 'BigCraftable':
+            return '(BC)'
+        case _:
+            return ''
