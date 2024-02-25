@@ -126,7 +126,7 @@ class Converter:
         self.manifest['UniqueID'] += '.CP'
         self.manifest['Author'] += ' ~ STF2CP'
 
-        self.manifest['ContentPackFor']['UniqueID'] = 'Cherry.ShopTileFramework'
+        self.manifest['ContentPackFor']['UniqueID'] = 'Pathoschild.ContentPatcher'
         if 'Dependencies' in self.manifest:
             self.manifest['Dependencies'] = \
                 [mod for mod in self.manifest['Dependencies'] if mod['UniqueID'] not in ['Cherry.ShopTileFramework']]

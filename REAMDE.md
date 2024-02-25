@@ -2,7 +2,7 @@
 
 ## Usage
 
-1. Download the latest release, if not present or not up to date, clone this repository with `git clone https://github.com/anotherpillow/skyblock-bedrock-bots.git --recurse-submodules`.
+1. Download the latest release, if not present or not up to date, clone this repository with `git clone https://github.com/anotherpillow/STF2CP.git --recurse-submodules`.
 2. Install Python, 3.11 was used for the development of this.
 3. Depending on your platform and your Python install, install requirements using:
     - `pip install -r requirements.txt`
