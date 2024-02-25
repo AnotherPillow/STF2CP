@@ -23,8 +23,6 @@ class Converter:
         shutil.copytree('input', 'output')
 
     def convert(self):
-        pass
-
         if 'AnimalShops' in self.shops:
             logger.error(f'AnimalsShop(s) ({", ".join([x["ShopName"] for x in self.shops["AnimalShops"] ])}) found in shops.json, will be ignored.')
         
